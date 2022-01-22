@@ -117,7 +117,7 @@ configure(subprojects) {
     tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
         kotlinOptions {
             freeCompilerArgs = ['-Xjsr305=strict']
-            jvmTarget = '14'
+            jvmTarget = '17'
         }
     }
 
